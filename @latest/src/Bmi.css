@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.App{
+        border: 1px solid black;
+        width: 600px;
+        height: auto;
+        padding: 10px;
+        background: linear-gradient(135deg,rgb(86, 248, 86),plum);
+}
+
+h1{
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.Main{
+        padding: 10px;
+}
+
+.Main > p{
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: purple;
+}
+
+.Main>input{
+            font-size: 20px;
+            color: blue;
+            width: 350px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            margin-bottom: 20px;
+            padding: 10px;
+}
+
+.search{
+                margin-bottom: 10px;
+}
+
+.search>button{
+    width: 350px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: blue;
+    background: linear-gradient(135deg,rgb(140, 254, 140) , rgb(252, 177, 189));
+    border: none;
+}
+
+.search>button:hover{
+            width: 380px;
+    font-size: 30px;
+    border-radius: 15px;
+    color: rgb(55, 55, 247);
+    background: linear-gradient(135deg,rgb(109, 243, 109) , rgb(253, 158, 174));
+}
+
+.reload-btn>button{
+    width: 350px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: blue;
+    background: linear-gradient(135deg,rgb(140, 254, 140) , rgb(252, 177, 189));
+    border: none;
+}
+
+.reload-btn>button:hover{
+            width: 380px;
+    font-size: 30px;
+    border-radius: 15px;
+    color: rgb(55, 55, 247);
+    background: linear-gradient(135deg,rgb(109, 243, 109) , rgb(253, 158, 174));
+}
+
